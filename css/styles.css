@@ -1,8 +1,5 @@
 body{
-  /* Typography Declarations */ 
-  color: #222222; 
-  font-size: 1em; 
-  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  /* Typography Declarations */ color: #222222; font-size: 1em; font-family: "Open Sans", "Helvetica Neue", sans-serif;
 }
 .content-footer, .masthead-heading, .masthead-intro{
   text-align: center;
@@ -14,8 +11,7 @@ body{
 .masthead-intro
 {
   margin-bottom: 0.1em; 
-  color:white; 
-  font-family: "Gentium Book Basic", Georgia, serif; 
+  color:white; font-family: "Gentium Book Basic", Georgia, serif; 
   font-size: 2em;
 }
 .masthead-heading 
@@ -23,16 +19,15 @@ body{
   margin-top: -.02em; 
   color:white; 
   font-family: "Open Sans", "Helvetica Neue", sans-serif; 
-  font-weight: bold; 
-  font-size: 6em; 
+  font-weight: bold; font-size: 6em; 
   letter-spacing: -0.02em; 
-  text-transform: uppercase;
+  text-transform: uppercase
+
 }
 .masthead 
 {
   background-image: url('http://i.imgur.com/G4EWV21.jpg'); 
-  background-size:cover; 
-  border:solid; 
+  background-size:cover; border:solid; 
   background-repeat:no-repeat;
 }
 .introduction-section, .location-section, .questions-section 
@@ -41,6 +36,7 @@ body{
   margin-left: auto; 
   margin-right:auto; 
   margin-top 2em;
+
 }
 .introduction > p, .location > p, .content-footer > p 
 {
@@ -52,11 +48,12 @@ body{
 {
   /*Typography Declarations */ 
   font-family: "Gentium Book Basic", Georgia, serif; 
-  font-size: 1.2em; 
-  font-weight: bold;}
+  font-size: 1.2em; font-weight: bold;
+}
 .social > li {
   display: inline-block;
   margin-right: 2.25em
+}
 }
 section > h1 
 {
@@ -82,4 +79,22 @@ background-color: #A9A9A9;
     font-size: .75em;
     padding: 0;
   }
+
+}
+.projects {
+  max-width:38em; 
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 2em;
+}
+.projects .screenshots {
+  display:inline;
+  margin: 1em 0;
+  padding: 0 0 0 40px;
+}
+.projects .screenshots li {
+  font-size: 1rem;
+  text-align:center;
+  list-style: none;
+  margin: 0em 0;
 }
