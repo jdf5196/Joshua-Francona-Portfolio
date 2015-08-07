@@ -18,8 +18,9 @@ body{
   width:970px;
   height:70px;
   margin:0 auto;
+  display:inline;
 }
-.topnav .topnavname li{
+.topnav .topnavname li {
   display:inline;
   margin-left:15px;
   margin-top:10px;
@@ -28,12 +29,14 @@ body{
   float:left;
   font-size: 2em;
   font-weight: 600;
+  margin-left: 1.5em;
 }
 .topnav .topnavname .links {
   float:right;
   margin-top:1.5rem;
   font-weight:400;
   font-size: 1em;
+  margin-right: 3em;
 }
 .topnav .topnavname .title {
   float:left;
@@ -57,7 +60,8 @@ body{
   margin-top: -.02em; 
   color:white; 
   font-family: "Open Sans", "Helvetica Neue", sans-serif; 
-  font-weight: bold; font-size: 6em; 
+  font-weight: bold; 
+  font-size: 6em; 
   letter-spacing: -0.02em; 
   text-transform: uppercase
 
@@ -74,8 +78,6 @@ body{
   max-width:38em; 
   margin-left: auto; 
   margin-right:auto; 
-  margin-top 2em;
-
 }
 .introduction > p, .location > p, .content-footer > p 
 {
@@ -108,6 +110,13 @@ background-color: #A9A9A9;
   width: 100%;
 }
 @media only screen and (max-width: 500px) {
+  .topnav {
+    padding: 2em 0;
+    font-size:1em;
+    margin-top:-3em;
+    height:100px;
+
+  }
   .masthead-heading {
     font-size: 3em;
   }
